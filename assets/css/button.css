@@ -1,0 +1,22 @@
+.button{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 156px;
+  height: 40px;
+  padding: 8px 16px;
+  cursor:pointer;
+}
+
+.button:hover{
+  backgroud-color:var(--primary);
+  opacity:0.8
+}
+
+.button__text{
+  margin-right:5px;
+}
+
+.button-outline{
+  border:1px solid white;
+}
